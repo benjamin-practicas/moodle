@@ -1,0 +1,1 @@
+USER|O:8:"stdClass":2:{s:2:"id";i:0;s:10:"mnethostid";s:1:"1";}SESSION|O:8:"stdClass":4:{s:4:"lang";s:2:"es";s:10:"logintoken";a:1:{s:15:"core_auth_login";a:2:{s:5:"token";s:32:"lQ7ZXqdRXX9YptlHmd9O14Qfkp2B8I9T";s:7:"created";i:1618339087;}}s:8:"wantsurl";N;s:13:"loginerrormsg";s:48:"Datos erróneos. Por favor, inténtelo otra vez.";}

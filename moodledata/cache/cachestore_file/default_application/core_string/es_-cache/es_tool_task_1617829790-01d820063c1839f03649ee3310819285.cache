@@ -1,0 +1,27 @@
+a:62:{s:5:"adhoc";s:6:"Ad hoc";s:11:"adhoctaskid";s:20:"Ad hoc task ID: {$a}";s:10:"adhoctasks";s:12:"Ad hoc tasks";s:4:"asap";s:27:"Tan pronto como sea posible";s:10:"adhocempty";s:26:"Ad hoc task queue is empty";s:14:"adhocqueuesize";s:32:"Ad hoc task queue has {$a} tasks";s:13:"adhocqueueold";s:53:"Oldest task is {$a->age} which is more than {$a->max}";s:20:"backtoscheduledtasks";s:29:"Regresar a trabajos agendados";s:8:"blocking";s:10:"Bloqueando";s:25:"cannotfindthepathtothecli";s:206:"No se puede encontrar la ruta hacia el ejecutable de PHP CLI, por lo que se abortó la ejecución del trabajo. Configure la "Ruta hacia PHP CLI" en "Administración del sitio / Servidor / Rutas del sistema"";s:15:"checkadhocqueue";s:17:"Ad hoc task queue";s:16:"checkcronrunning";s:12:"Cron running";s:17:"checkmaxfaildelay";s:20:"Tasks max fail delay";s:9:"classname";s:10:"Class name";s:22:"clearfaildelay_confirm";s:160:"¿Está seguro de querer borrar el retraso por fallo para el quehacer '{$a}'? Después de borrar el retraso, el quehacer correrá de acuerdo a su propia agenda.";s:9:"component";s:10:"Componente";s:13:"corecomponent";s:7:"Núcleo";s:12:"crondisabled";s:111:"Cron is disabled. No new tasks will be started. The system will not operate properly until it is enabled again.";s:6:"cronok";s:26:"Cron is running frequently";s:7:"default";s:11:"Por defecto";s:8:"defaultx";s:13:"Default: {$a}";s:8:"disabled";s:13:"Deshabilitado";s:13:"disabled_help";s:184:"Los trabajos agendados deshabilitados no son ejecutados desde cron; sin embargo, todavía podrían ejecutarse manualmente mediante la herramienta CLI de Interfaz por Línea de Comando.";s:16:"edittaskschedule";s:29:"Editar tarea programada: {$a}";s:12:"enablerunnow";s:59:"Permitir 'Ejecutar ahora' (Run now) para tareas programadas";s:17:"enablerunnow_desc";s:297:"Permitirle a administradores el correr un solo trabajo agendado inmediatamente, en lugar de esperar para que corra como está agendado. El trabajo corre en el servidor web, por lo que algunos sitios podrían desear deshabilitar esta característica para evitar problemas potenciales de desempeño.";s:9:"faildelay";s:17:"Retardo del fallo";s:13:"fromcomponent";s:20:"From component: {$a}";s:8:"hostname";s:9:"Host name";s:11:"lastruntime";s:16:"Último arranque";s:11:"lastupdated";s:18:"Last updated {$a}.";s:11:"nextruntime";s:18:"Siguiente arranque";s:3:"pid";s:3:"PID";s:14:"plugindisabled";s:20:"Plugin deshabilitado";s:10:"pluginname";s:37:"Configuración de la tarea programada";s:19:"resettasktodefaults";s:66:"Restablecer la configuración de la tarea programada a por defecto";s:24:"resettasktodefaults_help";s:113:"Esto descartará cualquier cambio local y revertirá la agenda para este trabajo a sus configuraciones originales";s:12:"runningtasks";s:17:"Tasks running now";s:6:"runnow";s:14:"Ejecutar ahora";s:8:"runagain";s:9:"Run again";s:14:"runnow_confirm";s:167:"¿Está seguro de querer correr este trabajo agendado ‘{$a}’ ahora? El trabajo agendado correrá en el servidor web y puede tomar bastante tiempo para completarse.";s:10:"runpattern";s:14:"Correr patrón";s:9:"scheduled";s:9:"Scheduled";s:14:"scheduledtasks";s:18:"Tareas programadas";s:28:"scheduledtaskchangesdisabled";s:106:"Se han impedido modificaciones a la lista de trabajos (''tasks'') agendados en la configuración de Moodle";s:7:"started";s:7:"Started";s:12:"taskdisabled";s:21:"Tareas deshabilitadas";s:12:"taskfailures";s:20:"{$a} task(s) failing";s:8:"tasklogs";s:9:"Task logs";s:14:"tasknofailures";s:26:"There are no tasks failing";s:15:"taskscheduleday";s:4:"Día";s:20:"taskscheduleday_help";s:318:"Campo del día de la semana para la programación de tareas. El campo usa el mismo formato que el cron de Unix. Algunos ejemplos:
+
+* <strong>*</strong> Cada día
+* <strong>*/2</strong> Un día sí y otro no
+* <strong>1</strong> El primer día de cada mes
+* <strong>1,15</strong> El primer día y el día 15 de cada mes";s:21:"taskscheduledayofweek";s:17:"Día de la semana";s:26:"taskscheduledayofweek_help";s:273:"Campo del día de la semana para la programación de tareas. El campo usa el mismo formato que el cron de Unix. Algunos ejemplos:
+
+* <strong>*</strong> Cada día
+* <strong>0</strong> Cada domingo
+* <strong>6</strong> Cada sábado
+* <strong>1,5</strong> Cada lunes y viernes";s:16:"taskschedulehour";s:4:"Hora";s:21:"taskschedulehour_help";s:295:"Campo de hora para agenda de trabajo. El campo usa el mismo formato que el cron para Unix. Algunos ejemplos son:
+
+* <strong>*</strong> Cada hora
+* <strong>*/2</strong> Cada 2 horas
+* <strong>2-10</strong> Cada hora desde las 2am hasta las 10am (inclusive)
+* <strong>2,6,9</strong> 2am, 6am y 9am";s:18:"taskscheduleminute";s:6:"Minuto";s:23:"taskscheduleminute_help";s:331:"Campo de minuto para agenda de trabajo. El campo usa el mismo formato que el cron para Unix. Algunos ejemplos son:
+
+* <strong>*</strong> Cada minuto
+* <strong>*/5</strong> Cada 5 minutos
+* <strong>2-10</strong> Cada minuto entre 2 y 10 después de la hora (inclusive)<
+* <strong>2,6,9</strong>  2, 6 y 9 minutos después de la hora";s:17:"taskschedulemonth";s:3:"Mes";s:22:"taskschedulemonth_help";s:259:"Campo de mes para agenda de trabajo. El campo usa el mismo formato que el cron para Unix. Algunos ejemplos son:
+
+
+* <strong>*</strong> Cada mes
+* <strong>*/2</strong> Un mes si y otro no
+* <strong>1</strong> Cada Enero
+* <strong>1,5</strong> Cada Enero y Mayo";s:16:"privacy:metadata";s:82:"El plugin de Configuración de trabajo agendado no almacena ningún dato personal.";s:8:"viewlogs";s:18:"View logs for {$a}";}
