@@ -18,8 +18,14 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
+
+
+$localIP = gethostbyname(trim(exec("hostname")));
+
+
+
 //
-$CFG->wwwroot   = 'http://192.168.0.6/moodle';
+$CFG->wwwroot   = 'http://'.$localIP.'/moodle';
 //$CFG->wwwroot   = 'http://localhost/moodle';
 $CFG->dataroot  = 'C:\\xampp\\moodledata';
 $CFG->admin     = 'admin';
